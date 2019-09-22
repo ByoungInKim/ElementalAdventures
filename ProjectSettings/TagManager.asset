@@ -3,7 +3,10 @@
 --- !u!78 &1
 TagManager:
   serializedVersion: 2
-  tags: []
+  tags:
+  - DangerousTile
+  - LargeTile
+  - LevelChanger
   layers:
   - Default
   - TransparentFX
@@ -40,4 +43,13 @@ TagManager:
   m_SortingLayers:
   - name: Default
     uniqueID: 0
+    locked: 0
+  - name: Ground
+    uniqueID: 3389685515
+    locked: 0
+  - name: Wall
+    uniqueID: 956335621
+    locked: 0
+  - name: MoveableObject
+    uniqueID: 358618271
     locked: 0
